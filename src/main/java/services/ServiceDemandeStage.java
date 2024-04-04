@@ -102,7 +102,7 @@ public class ServiceDemandeStage implements IService<DemandeStage> {
         }
         for (DemandeStage i : list){
 
-            System.out.println("DemandeStage{" +
+            System.out.println("Offre de stage{" +
                     ", id=" + i.getId() +
                     "nom='" + i.getNom() + '\'' +
                     ", prenom='" + i.getPrenom() + '\'' +

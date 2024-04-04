@@ -16,7 +16,7 @@ public class Db {
            connection = DriverManager.getConnection(url,user,password);
            System.out.println("connection établie");
        } catch (SQLException e) {
-           throw new RuntimeException(e);
+           System.out.println("pas de connexion avec bd");;
        }
    }
    public static Db getInstance(){

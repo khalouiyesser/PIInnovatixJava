@@ -5,9 +5,23 @@ import java.util.Objects;
 
 public class DemandeStage {
     String nom,prenom,email,lettremotivation,cv,domaine,etat;
-    int id,numeroTelephone,score;
+    int id,numeroTelephone,score,id_offre;
     Date date;
 
+    public DemandeStage(String nom, String prenom, String email, String lettremotivation, String cv, String domaine, String etat, int id, int numeroTelephone, int score, int id_offre, Date date) {
+        this.nom = nom;
+        this.prenom = prenom;
+        this.email = email;
+        this.lettremotivation = lettremotivation;
+        this.cv = cv;
+        this.domaine = domaine;
+        this.etat = etat;
+        this.id = id;
+        this.numeroTelephone = numeroTelephone;
+        this.score = score;
+        this.id_offre = id_offre;
+        this.date = date;
+    }
 
     public DemandeStage(int id, String nom, String prenom, String email, String lettremotivation, String cv, String domaine, int numeroTelephone, Date date, int score) {
         this.id = id;
@@ -44,6 +58,14 @@ public class DemandeStage {
         this.numeroTelephone = numeroTelephone;
         this.date = date;
         this.score = score;
+    }
+
+    public int getId_offre() {
+        return id_offre;
+    }
+
+    public void setId_offre(int id_offre) {
+        this.id_offre = id_offre;
     }
 
     public String getNom() {

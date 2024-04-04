@@ -4,27 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28d46750-86e6-4ca1-9026-e76fc4ccd9ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/DemandeStageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tests/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tests/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/Db.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/DemandeStage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/IService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/ServiceDemandeStage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/DemandeStage.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/css/Stylesheet.css" afterDir="false" />
+    <list default="true" id="28d46750-86e6-4ca1-9026-e76fc4ccd9ac" name="Changes" comment="crud demande stage sur le console.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/ServiceOffreStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/DemandeStageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/DemandeStageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tests/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tests/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/Db.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/Db.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/DemandeStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/DemandeStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/OffreDeStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/OffreDeStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/ServiceDemandeStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/ServiceDemandeStage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +51,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.test">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tests.App" />
       <module name="test" />
@@ -79,7 +67,7 @@
     </configuration>
     <configuration name="Db" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.test.test.Db" />
-      <module name="test" />
+      <module name="PIInnovatixJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.test.test.*" />
@@ -92,7 +80,7 @@
     </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tests.test" />
-      <module name="test" />
+      <module name="PIInnovatixJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Tests.*" />
@@ -105,8 +93,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.test" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.Db" />
       </list>
     </recent_temporary>
@@ -120,6 +108,30 @@
       <option name="presentableId" value="Default" />
       <updated>1711808782700</updated>
     </task>
+    <task id="LOCAL-00001" summary="crud demande stage sur le console.">
+      <option name="closed" value="true" />
+      <created>1711981819574</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711981819575</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="crud demande stage sur le console." />
+    <option name="LAST_COMMIT_MESSAGE" value="crud demande stage sur le console." />
   </component>
 </project>
