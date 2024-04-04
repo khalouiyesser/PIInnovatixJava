@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28d46750-86e6-4ca1-9026-e76fc4ccd9ac" name="Changes" comment="crud demande stage sur le console.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/ServiceOffreStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/DemandeStageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/DemandeStageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tests/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tests/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/Db.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/Db.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/DemandeStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/DemandeStage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/OffreDeStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/OffreDeStage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/ServiceDemandeStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/ServiceDemandeStage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,17 +34,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tests.App" />
@@ -107,6 +107,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711808782700</updated>
+      <workItem from="1712190432046" duration="1849000" />
     </task>
     <task id="LOCAL-00001" summary="crud demande stage sur le console.">
       <option name="closed" value="true" />
@@ -118,6 +119,9 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -133,5 +137,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="crud demande stage sur le console." />
     <option name="LAST_COMMIT_MESSAGE" value="crud demande stage sur le console." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Tests/App.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
